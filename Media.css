@@ -1,0 +1,257 @@
+@media screen and (max-width: 1366px) {
+  .otherpoints {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    padding: 16px 64px;
+  }
+  .logo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .burger {
+    display: block;
+  }
+  .navelements {
+    display: none;
+  }
+  .herocontent {
+    margin: 0 64px;
+    max-width: 50%;
+  }
+  .missionandvision {
+    margin: 64px 64px;
+  }
+  .newssection {
+    margin: 64px 64px;
+  }
+  .valuesandteam {
+    margin-right: 64px;
+  }
+  .values {
+    width: 50%;
+    padding: 80px 64px;
+  }
+  .otherpoints {
+    display: none;
+  }
+  .team {
+    justify-content: flex-start;
+  }
+  .projects {
+    margin: 128px 64px;
+  }
+  .partners{
+    margin: 128px 64px;
+  }
+  .orglogo{
+    height: 32px;
+  }
+  .titleandinput{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .subscription{
+    padding: 128px 64px;
+  }
+  .footer{
+    padding: 128px 64px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .languageanddonation {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .languageselector {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  .herotitle {
+    font-size: 34px;
+  }
+  .valuesandteam {
+    margin: 64px 0;
+    flex-direction: column;
+    width: 100%;
+  }
+  .values {
+    width: 100%;
+  }
+  .valuestitlecontainer {
+    justify-content: center;
+  }
+  .valuestitleicon {
+    display: none;
+  }
+  .expandpointparagraph {
+    text-align: center;
+  }
+  .team {
+    margin: 64px 64px;
+    justify-content: flex-start;
+  }
+  .teamimg {
+    width: 100%;
+  }
+  .teammember {
+    width: 100%;
+  }
+  .orglogo{
+    height: 24px;
+  }
+  .footer{
+    background: url(img/footerBg992.png);
+    background-position: center center;
+  }
+  .footerrow{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .social{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px
+  }
+  .usefullinks{
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .secondcard {
+    display: none;
+  }
+  .firstcard {
+    width: 100%;
+  }
+  .usefullinks{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer{
+    background: url(img/footerBg768.png);
+  }
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    padding: 16px 24px;
+  }
+  .logo {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  .burger {
+    width: 24px;
+    height: 24px;
+  }
+  .logoimg {
+    width: 32px;
+    height: 32px;
+  }
+  .languageselector {
+    display: none;
+  }
+  .herocontent {
+    margin: 0 24px;
+    max-width: 75%;
+  }
+  .herotitle {
+    font-size: 24px;
+  }
+  .herosubtitle {
+    font-size: 16px;
+  }
+  .missionandvision {
+    margin: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .missionandvisioncontent {
+    width: 100%;
+    margin-right: 24px;
+  }
+  .missionandvisionimg {
+    width: 100%;
+  }
+  .newssection {
+    margin: 48px 24px;
+  }
+  .newscards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .team {
+    margin: 64px 24px;
+  }
+  .values {
+    padding: 48px 24px;
+  }
+  .controlicon {
+    width: 32px;
+    height: 32px;
+  }
+  .projects{
+    margin: 64px 24px;
+  }
+  .partners{
+    margin: 64px 24px;
+  }
+  .row{
+    justify-content: center;
+  }
+  .subscription{
+    padding: 64px 24px;
+  }
+  .footer{
+    background: url(img/footerBg428.png);
+    background-position: center center;
+    padding: 64px 24px;
+  }
+  .logocontainer{
+    margin: 0 auto;
+  }
+  .foundationlinkscontainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contenttitle{
+    text-align: center;
+  }
+  .usefullinks{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .contactcontainer{
+    margin: 0 auto;
+    align-items: center;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .termsconditionsprivacypolicy{
+    display: flex;
+    flex-direction: column;
+  }
+}

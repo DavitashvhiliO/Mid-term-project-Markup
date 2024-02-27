@@ -1,0 +1,558 @@
+.header {
+  background-color: #fff;
+}
+.burger {
+  display: none;
+}
+nav {
+  display: flex;
+  background-color: #fff;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 16px 128px;
+  color: #232c65;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  font-feature-settings: "case" on;
+  transition: 1s;
+}
+.navigation {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+.navelements {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.elements {
+  color: inherit;
+}
+.elements:hover {
+  color: #232c65;
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+}
+.elemetswithdropdown {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.languageanddonation {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.languageselector {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+.primarybutton {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 2px;
+  background: #232c65;
+  color: var(--Biscay-0, #f0f5fe);
+  font-family: "FiraGo", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+  font-feature-settings: "case" on;
+}
+.primarybutton:hover{
+  background: #292929;
+  cursor: pointer;
+  transition: 1s;
+}
+.herosection {
+  background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%),
+    url(img/hero.png), lightgray 50% / cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.herocontent {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 128px;
+  padding: 160px 0;
+  transition: 1s;
+}
+.herotitle {
+  color: #f0f5fe;
+  font-family: "FiraGo", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 66px */
+  letter-spacing: 0.88px;
+  font-feature-settings: "case" on;
+}
+.herosubtitle {
+  color: #f0f5fe;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+}
+.missionandvision {
+  margin: 128px 128px;
+  display: flex;
+  gap: 16px;
+  transition: 1s;
+}
+.missionandvisioncontent {
+  background-color: #232c65;
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+  max-height: 412px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contenttitle {
+  color: #f0f5fe;
+  font-family: "FiraGo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.4px;
+  font-feature-settings: "case" on;
+}
+.bodytext {
+  overflow: hidden;
+  color: #f0f5fe;
+  text-overflow: ellipsis;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+}
+.missionandvisionimg {
+  width: 50%;
+  height: 412px;
+}
+.missionimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.newssection {
+  margin: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.blue {
+  color: #232c65;
+}
+.allnewsallprojects {
+  color: #000;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  border-bottom: 100%;
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+  cursor: pointer;
+}
+.allnewsallprojects:hover {
+  color: #232c65;
+  text-underline-offset: 16px;
+  transition: 1s;
+}
+.newscards {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 16px;
+  row-gap: 32px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.newsimg {
+  width: 100%;
+  height: 100%;
+  height: 279px;
+  object-fit: cover;
+}
+.titlenews {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.newstitle {
+  max-width: 75%;
+  height: 48px;
+  overflow: hidden;
+  color: #232c65;
+  text-overflow: ellipsis;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  font-feature-settings: "case" on;
+}
+.expand {
+  width: 16px;
+  height: 16px;
+}
+.expand:hover {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 1s;
+}
+.valuesandteam {
+  display: flex;
+  gap: 16px;
+  margin-right: 128px;
+  transition: 1s;
+}
+.values {
+  display: flex;
+  padding: 48px 128px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #dee7fb;
+  width: 75%;
+}
+.expandpoint {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sectionparagraph {
+  border-bottom: 1px solid #9bbdf5;
+  padding-bottom: 32px;
+}
+.valuestitlecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.valuestitle {
+  font-family: "FiraGo", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.4px;
+  font-feature-settings: "case" on;
+  padding: 16px 0;
+}
+.valuestitleicon {
+  width: 30px;
+  height: 30px;
+}
+.expandpointparagraph {
+  color: #232c65;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+}
+.otherpoints {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+.teammember {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.namepositioncontrol {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.nameposition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.h4 {
+  color: #232c65;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  font-feature-settings: "case" on;
+}
+.position {
+  color: #232c65;
+  font-family: "FiraGo", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+}
+.slidercontrol {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.controlicon {
+  width: 48px;
+  height: 48px;
+}
+.projects{
+  margin: 128px 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  transition: 1s;
+}
+.projectcards{
+  display: flex;
+  gap: 16px;
+}
+.firstcard, .secondcard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+}
+.cardtitle{
+  padding-left: 16px;
+  width: 308px;
+}
+.secondcard{
+  margin-top: 64px;
+}
+.cardimage{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.partners{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: 128px;
+  transition: 1s;
+}
+.organisations{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.orglogo{
+  height: 48px;
+  filter: grayscale(100%);
+}
+.orglogo:hover{
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: .5s ease-in;
+}
+.subscription{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+  padding: 64px 128px;
+  border-radius: 4px;
+  background: #F0F5FE;
+}
+.titleandinput{
+  display: flex;
+  justify-content: space-between;
+}
+.inputarea{
+  display: flex;
+  gap: 32px;
+}
+#Email{
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(35, 44, 101, 0.75);
+  display: flex;
+  width: 384px;
+  height: 48px;
+  padding: 0px 16px;
+  align-items: center;
+  color: rgba(35, 44, 101, 0.75);
+  font-family: "FiraGo", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+  font-feature-settings: 'case' on;
+}
+.footer{
+  background: url(img/footerBg1920.png);
+  background-position: center center;
+  padding: 128px 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  transition: .1s;
+}
+.footerrow{
+  display: flex;
+  justify-content: space-between;
+}
+.logocontainer{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+}
+.fulllogo{
+  height: 64px;
+}
+.fulllogo:hover{
+  cursor: pointer;
+}
+.social{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialicon{
+  width: 24px;
+  height: 24px;
+}
+.socialicon:hover{
+  cursor: pointer;
+}
+.usefullinks{
+  display: flex;
+  gap: 64px;
+}
+.foundation{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.foundationlinkscontainer{
+  display: flex;
+  gap: 32px;
+}
+.foundationlinkscol{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.link{
+  color: #FFF;
+  font-family: "FiraGo", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contactcontainer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contactform{
+  display: flex;
+  gap: 16px;
+}
+.contactform:hover{
+  cursor: pointer;
+}
+.contactimg{
+  width: 18px;
+  height: 18px; 
+}
+.contacttitle{
+  color: #FFF;
+  font-family: "FiraGo", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+}
+.copyrightterms{
+  color: #FFF;
+  font-family: "FiraGo", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+  letter-spacing: 0.24px;
+  font-feature-settings: 'case' on;
+}
+.termsconditionsprivacypolicy{
+  display: flex;
+  gap: 24px;
+}
